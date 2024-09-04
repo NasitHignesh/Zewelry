@@ -1,0 +1,33 @@
+.aboutus-block {
+    display: block;
+}
+
+.aboutus-block::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.aboutus-block .aboutus-block-outer .block-title p {
+    text-align: start;
+}
+
+.aboutus-block .aboutus-block-outer .block-inner {
+    display: block;
+    width: 100%;
+    max-width: 1100px;
+    margin: 10px auto;
+    padding-bottom: 40px;
+}
+
+.aboutus-block .aboutus-block-outer .block-inner .block-inner-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.aboutus-block .aboutus-block-outer .block-inner .block-inner-content {
+    padding: 0 20px;
+}

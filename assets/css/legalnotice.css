@@ -1,0 +1,32 @@
+.legalnotice-block {
+    display: block;
+}
+
+.legalnotice-block::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.legalnotice-block .legalnotice-block-inner {
+    padding: 40px 0;
+}
+
+.legalnotice-block .legalnotice-block-inner .block-title {
+    padding: 0;
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.legalnotice-block .legalnotice-block-inner .block-content {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.legalnotice-block .legalnotice-block-inner .inner-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

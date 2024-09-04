@@ -1,0 +1,31 @@
+.payment-block {
+    display: block;
+}
+
+.payment-block::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.payment-block .payment-block-inner {
+    padding: 40px 0;
+}
+
+.payment-block .payment-block-inner .inner-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.payment-block .payment-block-inner .inner-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.payment-block .payment-block-inner .inner-content p {
+    margin-bottom: 20px;
+    color: #666666;
+    font-size: 14px;
+}

@@ -1,0 +1,65 @@
+.register-block {
+    display: block;
+}
+
+.register-block::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.register-block .register-block-outer .block-title {
+    padding: 0;
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+.register-block .register-block-outer .register-form {
+    border: 1px solid rgba(0,0,0,0.2);
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.register-block .register-block-outer .register-form .form-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.register-block .register-block-outer .register-form .form-submit-btn {
+    text-align: end;
+    margin-top: 15px;
+}
+
+.register-block .register-block-outer .register-form .form-submit-btn .submit-btn {
+    color: white;
+    background: black;
+    border: none;
+    padding: 5px 15px;
+}
+
+.register-block .register-block-outer .register-form .form-inner .form-label {
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+.register-block .register-block-outer .register-form .form-inner .form-input {
+    margin-bottom: 20px;
+}
+
+.register-block .register-block-outer .register-form .form-inner .form-input .input-box {
+    border: none;
+    background: rgba(0,0,0,0.1);
+    width: 60%;
+    height: 35px;
+    padding: 8px 15px;
+}
+
+@media (max-width: 767px){
+    .register-block .register-block-outer .register-form .form-inner .form-label {
+        text-align: start;
+    }
+}

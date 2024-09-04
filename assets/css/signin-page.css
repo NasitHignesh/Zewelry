@@ -1,0 +1,85 @@
+.signin-block {
+    display: block;
+}
+
+.signin-block::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.signin-block .signin-block-outer .form-title p {
+    text-align: start;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.signin-block .signin-block-outer .signin-form {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.signin-block .signin-block-outer .signin-form .form-inner-title {
+    text-align: end;
+}
+
+.signin-block .signin-block-outer .signin-form .form-inner-input {
+    margin-bottom: 20px;
+}
+
+.signin-block .signin-block-outer .signin-form .form-inner-input .input-email {
+    background: rgba(0,0,0,0.1);
+    outline: none;
+    width: 75%;
+    height: 35px;
+    padding: 8px 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.signin-block .signin-block-outer .signin-form .form-inner-input .input-password {
+    background: rgba(0,0,0,0.1);
+    outline: none;
+    width: 75%;
+    height: 35px;
+    padding: 8px 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.signin-block .signin-block-outer .signin-form .forgot-pswd {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.signin-block .signin-block-outer .signin-form .submit-btn .input-submit {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    padding: 5px 20px;
+    font-size: 17px;
+    border: none;
+}
+
+.signin-block .signin-block-outer .signin-form .register-btn {
+    text-align: center;
+}
+
+.signin-block .signin-block-outer .signin-form .register-btn::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+@media (max-width: 576px){
+    .signin-block .signin-block-outer .signin-form .form-inner-title {
+        text-align: start;
+    }
+}

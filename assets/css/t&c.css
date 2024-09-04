@@ -1,0 +1,31 @@
+.wrapper {
+    display: block;
+}
+
+.wrapper::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.wrapper .wrapper-inner {
+    padding: 40px 0;
+}
+
+.wrapper .wrapper-inner .inner-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.wrapper .wrapper-inner .inner-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wrapper .wrapper-inner .inner-content p {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}

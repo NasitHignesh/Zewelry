@@ -1,0 +1,60 @@
+.store-block {
+    display: block;
+}
+
+.store-block::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.store-block .store-block-inner .inner-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.store-block .store-block-inner .inner-content {
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.store-block .store-block-inner .inner-content .inner-img {
+    text-align: center;
+}
+
+.store-block .store-block-inner .inner-content .inner-text {
+    padding: 25px 0;
+}
+
+.store-block .store-block-inner .inner-content .inner-text p {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.store-block .store-block-inner .inner-content .inner-timetable {
+    border-left: 1px solid rgba(0,0,0,0.2);
+    padding-left: 15px;
+}
+
+@media (max-width: 991px){
+    .store-block .store-block-inner .inner-content {
+        width: 95%;
+    }
+}
+
+@media (max-width: 767px){
+    .store-block .store-block-inner .inner-content .inner-text {
+        text-align: center;
+    }
+
+    .store-block .store-block-inner .inner-content .inner-timetable {
+        border: none;
+        text-align: center;
+    }
+}

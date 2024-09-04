@@ -1,0 +1,105 @@
+.contact-block {
+    display: block;
+}
+
+.contact-block::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.contact-block .contact-block-inner {
+    margin: 50px 0;
+}
+
+.contact-block .contact-block-inner .inner-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-block .contact-block-inner .inner-content {
+    padding-right: 70px;
+}
+
+.contact-block .contact-block-inner .inner-content i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 25px;
+    color: #666666;
+}
+
+.contact-block .contact-block-inner .inner-content .inner-top {
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-block .contact-block-inner .inner-content .inner-bottom {
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.contact-block .contact-block-inner .form-outer {
+    display: block;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    padding: 15px;
+    width: 80%;
+}
+
+.contact-block .contact-block-inner .form-outer .form-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.contact-block .contact-block-inner .form-outer .form-inner .form-label {
+    text-align: end;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.contact-block .contact-block-inner .form-outer .form-inner .form-input .input-box {
+    border: 1px solid rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.1);
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 70%;
+}
+
+.contact-block .contact-block-inner .form-outer .form-inner .submit-btn {
+    text-align: end;
+}
+
+.contact-block .contact-block-inner .form-outer .form-inner .submit-btn .save-btn {
+    border: none;
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2px;
+}
+
+@media (max-width: 991px){
+    .contact-block .contact-block-inner .form-outer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px){
+    .contact-block .contact-block-inner .form-outer .form-inner .form-label {
+        text-align: start;
+    }
+
+    .contact-block .contact-block-inner .inner-content {
+        margin-bottom: 20px;
+    }
+}
